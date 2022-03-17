@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Nilai</title>
+    <title>Looping PHP</title>
 	
 	<!-- include css file here-->
    <link rel="stylesheet" href="css/style.css"/>
@@ -15,19 +15,17 @@
 	<div class="container">
 		<div class="main">
 	      <form  method="POST" action="index.php" id="form">
-			<h2>Nilai</h2><hr/>		
+			<h2>Data pegawai</h2><hr/>		
 			
-			<label>Nama :</label>
-			<input type="text" name="fnama" id="fnama" />
+			<b><label>Nama : </b> </label>
+			<b><input type="text" name="fnama" id="fnama" />
 			
-			<label>Matpel :</label>
-			<input type="text" name="matpel" id="matpel" />
+			<label>Pekerjaan :</label>
+			<input type="text" name="pekerjaan" id="pekerjaan" />
 
-			<label>Nilai :</label>
-			<input type="text" name="nilai" id="nilai" />
-			
-			<label>Metode :</label>
-			<input type="radio" name="method" value="post" > POST </span>	
+            <label>Hobby:</label>
+            <input type="radio" name="method" value="post" id= "hobby" >Hobby</span>
+				
 			<input type="submit" name="submit" id="submit" value="Simpan">
 		  </form>
 		<?php include "proses.php";?>
